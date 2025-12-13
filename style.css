@@ -66,16 +66,17 @@ body {
 }
 
 /* Artist Credit */
-.credit{
-    position: fixed;
+.credit {
+position: absolute;
     font-family: 'Maran Orthodox Church', serif;
     font-size: 20px;
     color: rgba(255, 255, 255, 0.8);
     top: 8rem;
-    left: 3rem;
+    left: 5rem;
     z-index: 100;
-line-height: 1;
+    line-height: 1;
 }
+
 .credit a {
     display: block;
     transition: opacity 0.3s ease;
@@ -91,7 +92,11 @@ line-height: 1;
 
 .img-left{
 display: block;
-left: 0;
+margin: 0 auto;
+justify-items: center;
+}
+.img-left img{
+display: block;
 margin: 0 auto;
 }
 /* Header Image Container */
@@ -221,7 +226,7 @@ hr {
 
         h3 {
             font-family: 'Cloister Black', serif;
-            font-size: clamp(2rem, 5vw, 4rem);
+            font-size: 2.5rem;
             font-weight: 200;
             margin: 2rem 0 1rem;
             color: var(--color-white);
