@@ -70,7 +70,7 @@ body {
     position: fixed;
     font-family: 'Maran Orthodox Church', serif;
     font-size: 20px;
-    color: rgba(255, 255, 255, 0.3);
+    color: rgba(255, 255, 255, 0.8);
     top: 7rem;
     left: 3rem;
     z-index: 100;
