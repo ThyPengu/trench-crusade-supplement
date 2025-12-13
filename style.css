@@ -71,11 +71,11 @@ body {
     font-family: 'Maran Orthodox Church', serif;
     font-size: 20px;
     color: rgba(255, 255, 255, 0.8);
-    top: 7rem;
+    top: 8rem;
     left: 3rem;
     z-index: 100;
+line-height: 1;
 }
-
 .credit a {
     display: block;
     transition: opacity 0.3s ease;
@@ -89,11 +89,11 @@ body {
     color: #ffffff;
 }
 
-.img-left {
-position: relative;
-left: -500px;
+.img-left{
+display: block;
+left: 0;
+margin: 0 auto;
 }
-
 /* Header Image Container */
 .header-container {
     position: relative;
@@ -219,6 +219,14 @@ hr {
             color: var(--color-white);
         }
 
+        h3 {
+            font-family: 'Cloister Black', serif;
+            font-size: clamp(2rem, 5vw, 4rem);
+            font-weight: 200;
+            margin: 2rem 0 1rem;
+            color: var(--color-white);
+        }
+
         p {
             font-size: 1.125rem;
             line-height: 1.75;
@@ -240,10 +248,9 @@ hr {
             .two-column {
                 grid-template-columns: 1fr 1fr;
             }
-.img-left{
-display: block;
-left: 0;
-margin: 0 auto;
+.img-left {
+position: relative;
+left: -500px;
 }
         }
 
