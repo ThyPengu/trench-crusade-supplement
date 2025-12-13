@@ -89,6 +89,11 @@ body {
     color: #ffffff;
 }
 
+.img-left {
+position: relative;
+left: -500px;
+}
+
 /* Header Image Container */
 .header-container {
     position: relative;
@@ -156,6 +161,9 @@ body {
         -webkit-mask-size: contain;
         mask-size: contain;
     }
+.img-left{
+display: block;
+}
 }
 
 /* Content Area */
