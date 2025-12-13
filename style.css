@@ -68,18 +68,20 @@ body {
 /* Artist Credit */
 .credit {
     position: fixed;
+    font-family: 'Maran Orthodox Church', serif;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.8)
     top: 7rem;
     left: 3rem;
     z-index: 100;
 }
 
 .credit a {
-    display: block;
+    display: inline-block;
     transition: opacity 0.3s ease;
     color: #E03719;
     font-size: 23px;
     text-decoration: underline;
-    font-family: 'Maran Orthodox Church', serif;
 }
 
 .credit a:hover {
@@ -116,7 +118,7 @@ body {
 .header-image {
     position: relative;
     width: 100%;
-    min-height: 100vh;
+    min-height: 90vh;
     background-image: linear-gradient(#151515, #15151566, #15151500, #15151533, #151515), url('https://images2.imgbox.com/c7/bb/mHqSJUsb_o.png');
     background-size: cover;
     background-position: center;
