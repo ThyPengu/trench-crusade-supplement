@@ -66,7 +66,7 @@ body {
 }
 
 /* Artist Credit */
-.credit p{
+.credit{
     position: fixed;
     font-family: 'Maran Orthodox Church', serif;
     font-size: 20px;
@@ -249,9 +249,26 @@ hr {
                 grid-template-columns: 1fr 1fr;
             }
 .img-left {
-position: relative;
-left: -500px;
+        position: absolute;
+        left: -18vw;
 }
+.img-left img{
+    width: calc(85vw - 1200px);
+    max-width: 15vw;
+}
+
+        }
+
+        @media (min-width: 1800px) {
+.img-left {
+        position: absolute;
+        left: -14vw;
+}
+.img-left img{
+    width: calc(85vw - 1200px);
+    max-width: 15vw;
+}
+
         }
 
         /* Continue Reading Link */
