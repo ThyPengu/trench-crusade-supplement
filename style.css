@@ -216,7 +216,7 @@ hr {
         /* Text Styling */
         h2 {
             font-family: 'Cloister Black', serif;
-            font-size: clamp(2rem, 5vw, 4rem);
+            font-size: 2rem;
             font-weight: 400;
             margin: 2rem 0 1rem;
             color: var(--color-white);
@@ -226,8 +226,9 @@ hr {
             font-family: 'Cloister Black', serif;
             font-size: 2.5rem;
             font-weight: 200;
-            margin: 2rem 0 1rem;
             color: var(--color-white);
+            text-align: center;
+            line-height: 1rem;
         }
 
         p {
